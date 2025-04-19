@@ -5,7 +5,8 @@
 # class ArrayReader:
 #     def get(self, index: int) -> int:
 
-
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
 class Solution:
     def search(self, reader: 'ArrayReader', target: int) -> int:
         start, end = 0, 1
@@ -29,6 +30,3 @@ class Solution:
             return end
         
         return -1
-    
-if __name__ == "__main__":
-   
